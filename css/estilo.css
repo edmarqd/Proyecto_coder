@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: rgb(231, 209, 6);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #19026f;
+    font-family: "Noto Sans", sans-serif; 
+}
+
+a {
+    color: #19026f;
+    font-family: "Noto Sans", sans-serif;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+    a:hover {
+      color: #1f4b96;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+  
+p {
+    color: #2c2c2c;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1.625;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+
+button{
+    background-color: black;
+    color:white;
+    font-size:20px;
+}
+
+
+table{
+    background-color: gray;
+   
+}
+
+ul{
+    /*display:flex;*/
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.padre{
+    display:flex;
+    height: 700px;
+    width: 85%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(193, 191, 191);
+
+
+}
+
+
+.hijo{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(86, 121, 86);
+    height: 88%;
+    width: 30%;
+
+}
+
+
+.img_card{
+    height: 50%;
+    width: 90%;
+
+}
+
+
+.parrafo_card{
+    width: 90%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boton_card{
+    width: 40%;
+    height: 10%;
+    font-size:20px;
+    background-color: black;
+    color:green;
+}
+
+* {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  @keyframes aparecer {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+  .titulos {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes slide-left {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  .slide-left {
+    animation-name: slide-left;
+    animation-duration: 2.5s;
+  }
+  
+  @keyframes slide-right {
+    from {
+      margin-right: -100%;
+    }
+    to {
+      margin-right: 0%;
+    }
+  }
+  .slide-right {
+    animation-name: slide-right;
+    animation-duration: 2s;
+  }
+  
+  .aparecer {
+    animation-name: aparecer;
+    animation-duration: 2s;
+  }
+  
+  @media (max-width: 425px) {
+    .main-contacto {
+      height: auto;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card-inicio {
+      height: 420px;
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .card-inicio {
+      height: 500px;
+    }
+  }
+  .btn-r, .btn-p, .btn-c, .btn-b {
+    color: black;
+    border-style: solid;
+    border-width: 0.6rem;
+    border-radius: 0.5rem;
+    border-color: #E11F96;
+    background-color: #E11F96;
+    height: 3rem;
+    width: 8rem;
+  }
+  
+  .btn-b {
+    border-color: #367CE0;
+    background-color: #367CE0;
+    height: 3rem;
+    width: 8rem;
+  }
+  
+  .btn-c {
+    border-color: rgba(204, 142, 19, 0.9254901961);
+    background-color: rgba(204, 142, 19, 0.9254901961);
+    height: 3rem;
+    width: 8rem;
+  }
+  
+  .btn-p {
+    border-color: #39E02B;
+    background-color: #39E02B;
+    height: 3rem;
+    width: 8rem;
+  }
+  
+  .card-categorias {
+    background-color: rgba(0, 0, 0, 0.842);
+  }
+  .card-categorias p {
+    color: white;
+  }
+
+  
+
+  @media screen and (min-width: 1024px) {
+    .item:hover {
+      transform: scale(108%);
+      transition: 1.3s;
+    }
+  }
+  .item-footer {
+    width: 150%;
+  }
+  
+  .botones {
+    transition: 2s;
+  }
+  .botones:hover {
+    transform: scale(115%);
+  }
+  
+  .expand-title {
+    transition: 0.8s;
+  }
+  .expand-title:hover {
+    transform: scale(110%);
+  }
