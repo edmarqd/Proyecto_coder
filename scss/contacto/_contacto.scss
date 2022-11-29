@@ -1,0 +1,14 @@
+.contacto{
+    background-image: url(./../Images/contactofondo.jpg);
+    background-size: cover;
+}
+
+.main-contacto{
+    height: 720px;
+}
+
+@media (max-width: 425px) {
+    .main-contacto{
+        height: auto;
+    }
+}

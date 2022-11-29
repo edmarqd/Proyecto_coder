@@ -1,0 +1,38 @@
+@import "reset/reset";
+@import "variables/varaibles";
+@import "animaciones/animaciones";
+@import "nosotros/nosotros";
+@import "contacto/contacto";
+@import "inicio/inicio";
+@import "categorias/categorias";
+
+
+@media screen and (min-width: 1024px) {
+    .item:hover{
+        transform: scale(108%);
+        transition: 1.3s;
+        } 
+}
+
+
+
+.item-footer{
+    width: 150%;
+}
+
+.botones{
+    transition: 2s;
+
+    &:hover{
+        transform: scale(115%);
+}
+}
+
+.expand-title{
+    transition: .8s;
+        &:hover{
+            transform: scale(110%);
+        }
+}
+
+

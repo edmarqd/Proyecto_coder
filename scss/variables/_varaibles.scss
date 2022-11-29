@@ -1,0 +1,14 @@
+$color-primario: rgba(0, 0, 0, 0.842);
+$color-secundario: #cc8e13ec;
+
+$botones: (
+    "remeras": #E11F96,
+    "buzos": #367CE0,
+    "camisas": #cc8e13ec,
+    "pantalones": #39E02B,
+);
+
+@mixin tamaño-botones {
+    height: 3rem;
+    width: 8rem;
+}

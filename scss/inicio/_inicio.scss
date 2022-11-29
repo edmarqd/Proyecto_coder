@@ -1,0 +1,43 @@
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .card-inicio{
+        height: 420px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    .card-inicio{
+        height: 500px;
+    }
+}
+
+.btn-r{
+    color: black;
+    border-style: solid;
+    border-width: .6rem;
+    border-radius: .5rem;
+    border-color: map-get($pan, panes );
+    background-color: map-get($pan, panes );
+    @include tamaño-pan;
+}
+
+.btn-b{
+    @extend .btn-r;
+    border-color: map-get($pan, bolleria);
+    background-color: map-get($pan, bolleria );
+    @include tamaño-pan;
+}
+
+.btn-c{
+    @extend .btn-r;
+    border-color: map-get($pan, pasteles );
+    background-color: map-get($pan, pasteles );
+    @include tamaño-pan;
+}
+
+.btn-p{
+    @extend .btn-r;
+    border-color: map-get($pan, desayunos );
+    background-color: map-get($pan, desayunos );
+    @include tamaño-pan;
+}
